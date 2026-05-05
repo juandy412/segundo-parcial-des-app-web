@@ -3,7 +3,6 @@
   <div class="login-page">
     <div class="login-card">
 
-      <!-- Encabezado institucional ITAL -->
       <div class="login-header">
         <div class="login-escudo">
           <img :src="logo" alt="Logo Instituto Técnico Alfonso López" class="login-logo" />

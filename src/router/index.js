@@ -12,15 +12,13 @@ const routes = [
     beforeEnter: (to, from, next) => {
       if (localStorage.getItem('isLoggedIn') === 'true') next()
       else next('/login')
-    }
-  },
-  {
-    path: '/dashboard/productos',
-    component: ProductView,
-    beforeEnter: (to, from, next) => {
-      if (localStorage.getItem('isLoggedIn') === 'true') next()
-      else next('/login')
-    }
+    },
+    children: [
+      {
+        path: 'productos',
+        component: ProductView
+      }
+    ]
   }
 ]
 

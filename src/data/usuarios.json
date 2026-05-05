@@ -1,10 +1,12 @@
 [
   { 
-    "username": "admin", 
-    "password": "1234" 
+    "username": "estudiante", 
+    "password": "estudiante1234",
+    "rol": "estudiante"
   },
   { 
-    "username": "docente"
-  , "password": "ital2024"
- }
+    "username": "docente",
+    "password": "docente1234",
+    "rol": "docente"
+  }
 ]

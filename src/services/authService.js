@@ -7,6 +7,7 @@ export function login(username, password) {
   if (found) {
     localStorage.setItem('isLoggedIn', 'true')
     localStorage.setItem('currentUser', username)
+    localStorage.setItem('currentUserRole', found.rol)
     return true
   }
   return false
@@ -15,8 +16,13 @@ export function login(username, password) {
 export function logout() {
   localStorage.removeItem('isLoggedIn')
   localStorage.removeItem('currentUser')
+  localStorage.removeItem('currentUserRole')
 }
 
 export function isAuthenticated() {
   return localStorage.getItem('isLoggedIn') === 'true'
+}
+
+export function getRol() {
+  return localStorage.getItem('userRol')
 }
