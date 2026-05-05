@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Chaqueta Urbana",
+    "precio": 69000,
+    "imagen": "https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg",
+    "descripcion": "Chaqueta liviana para uso diario con corte moderno.",
+    "stock": 15,
+    "categoria": "Abrigos"
+  },
+  {
+    "id": 2,
+    "nombre": "Camisa Formal",
+    "precio": 45000,
+    "imagen": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg",
+    "descripcion": "Camisa elegante ideal para la oficina o eventos.",
+    "stock": 22,
+    "categoria": "Camisas"
+  },
+  {
+    "id": 3,
+    "nombre": "Jeans Skinny",
+    "precio": 52000,
+    "imagen": "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg",
+    "descripcion": "Jeans ajustados con material stretch para mayor comodidad.",
+    "stock": 30,
+    "categoria": "Pantalones"
+  },
+  {
+    "id": 4,
+    "nombre": "Vestido Casual",
+    "precio": 58000,
+    "imagen": "https://images.pexels.com/photos/2065204/pexels-photo-2065204.jpeg",
+    "descripcion": "Vestido fresco y cómodo para gran variedad de ocasiones.",
+    "stock": 18,
+    "categoria": "Vestidos"
+  },
+  {
+    "id": 5,
+    "nombre": "Zapatillas Deportivas",
+    "precio": 86000,
+    "imagen": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg",
+    "descripcion": "Calzado deportivo con buen soporte y diseño moderno.",
+    "stock": 12,
+    "categoria": "Calzado"
+  },
+  {
+    "id": 6,
+    "nombre": "Blusa Estampada",
+    "precio": 34000,
+    "imagen": "https://images.pexels.com/photos/1422427/pexels-photo-1422427.jpeg",
+    "descripcion": "Blusa ligera con estampado alegre y colorido.",
+    "stock": 20,
+    "categoria": "Blusas"
+  },
+  {
+    "id": 7,
+    "nombre": "Pantalón Cargo",
+    "precio": 59000,
+    "imagen": "https://images.pexels.com/photos/2983462/pexels-photo-2983462.jpeg",
+    "descripcion": "Pantalón cargo cómodo con múltiples bolsillos.",
+    "stock": 14,
+    "categoria": "Pantalones"
+  },
+  {
+    "id": 8,
+    "nombre": "Suéter de Punto",
+    "precio": 47000,
+    "imagen": "https://images.pexels.com/photos/1094940/pexels-photo-1094940.jpeg",
+    "descripcion": "Suéter cálido y suave para los días fríos.",
+    "stock": 16,
+    "categoria": "Suéteres"
+  },
+  {
+    "id": 9,
+    "nombre": "Mochila Urbana",
+    "precio": 78000,
+    "imagen": "https://images.pexels.com/photos/374630/pexels-photo-374630.jpeg",
+    "descripcion": "Mochila resistente con múltiples compartimentos.",
+    "stock": 25,
+    "categoria": "Accesorios"
+  },
+  {
+    "id": 10,
+    "nombre": "Gorra Clásica",
+    "precio": 18000,
+    "imagen": "https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg",
+    "descripcion": "Gorra con visera curva y diseño minimalista.",
+    "stock": 40,
+    "categoria": "Accesorios"
+  }
+]
