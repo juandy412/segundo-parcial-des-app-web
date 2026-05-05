@@ -1,12 +1,4 @@
 [
-  { 
-    "username": "estudiante", 
-    "password": "estudiante1234",
-    "rol": "estudiante"
-  },
-  { 
-    "username": "docente",
-    "password": "docente1234",
-    "rol": "docente"
-  }
+  { "username": "docente", "password": "1234", "rol": "profesor" },
+  { "username": "estudiante", "password": "1234", "rol": "estudiante" }
 ]

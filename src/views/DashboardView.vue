@@ -3,7 +3,7 @@
 
     <nav class="sidebar">
       <div class="sidebar-brand">
-        <div class="brand-escudo">ITAL</div>
+        <div class="brand-escudo"><img src="/src/assets/LOGO-ALFONSO.jpeg" alt="Logo Alfonso"></div>
         <span class="brand-name">Alfonso López</span>
       </div>
       <ul class="sidebar-menu">

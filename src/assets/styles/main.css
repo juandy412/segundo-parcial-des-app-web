@@ -1,19 +1,26 @@
+/* ============================================================
+   ITAL — Instituto Técnico Alfonso López
+   Bootstrap maneja: grid, forms, alerts, buttons, spinner, table
+   Este archivo maneja: paleta ITAL, login, identidad visual
+   ============================================================ */
+
 :root {
-  --ital-primary:   #41ec3b;
-  --ital-secondary: #048734;
-  --ital-accent:    #000000;
-  --ital-light:     #a9e809;
+  --ital-primary:   #189220;
+  --ital-secondary: #0c5e2b;
+  --ital-accent:    #f5a800;
+  --ital-light:     #e8f0fb;
   --ital-text:      #1a1a2e;
   --ital-muted:     #6c757d;
   --ital-white:     #ffffff;
 }
 
+/* LOGIN */
 .login-page {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--ital-primary) 0%, var(--ital-secondary) 60%, #069a3f 100%);
+  background: linear-gradient(135deg, var(--ital-primary) 0%, var(--ital-secondary) 60%, #06ba33 100%);
   padding: 1rem;
   font-family: 'Segoe UI', system-ui, sans-serif;
 }
@@ -24,70 +31,49 @@
   padding: 2.5rem 2rem;
   width: 100%;
   max-width: 420px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
   border-top: 5px solid var(--ital-accent);
 }
 
-.login-header {
-  text-align: center;
-  margin-bottom: 1.75rem;
-}
+.login-header { text-align: center; margin-bottom: 1.75rem; }
 
-.login-escudo {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  background: var(--ital-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 0.75rem;
-  border: 3px solid var(--ital-accent);
-  overflow: hidden;
-}
-.login-logo {
-  width: 100%;
-  height: 100%;
+
+.imagenlogo {
+  width: 20px; height: 20px;
+  border-radius: 20%;
   object-fit: cover;
+  margin-bottom: 15px;
 }
 
 .login-title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--ital-primary);
-  margin: 0;
-  line-height: 1.2;
+  font-size: 1.4rem; font-weight: 700;
+  color: var(--ital-primary); margin: 0;
 }
 
 .login-subtitle {
-  font-size: 0.9rem;
-  color: var(--ital-secondary);
-  font-weight: 600;
-  margin: 2px 0 2px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 0.85rem; color: var(--ital-secondary);
+  font-weight: 600; margin: 2px 0;
+  text-transform: uppercase; letter-spacing: 1px;
 }
 
-.login-system {
-  font-size: 0.78rem;
-  color: var(--ital-muted);
-  margin: 0;
-}
+.login-system { font-size: 0.78rem; color: var(--ital-muted); margin: 0; }
 
 .login-header::after {
   content: '';
   display: block;
-  width: 60px;
-  height: 3px;
+  width: 60px; height: 3px;
   background: var(--ital-accent);
   border-radius: 2px;
   margin: 10px auto 0;
 }
 
-.form-label {
-  color: var(--ital-text);
-  font-size: 0.875rem;
+.login-disclaimer {
+  font-size: 0.72rem; color: var(--ital-muted);
+  text-align: center; font-style: italic; margin-bottom: 0;
 }
+
+/* INPUTS */
+.form-label { color: var(--ital-text); font-size: 0.875rem; }
 
 .input-group-text {
   background-color: var(--ital-light);
@@ -97,45 +83,35 @@
 
 .form-control:focus {
   border-color: var(--ital-secondary);
-  box-shadow: 0 0 0 0.2rem rgba(0, 85, 165, 0.2);
+  box-shadow: 0 0 0 0.2rem rgba(0,85,165,0.2);
 }
 
+.brand-escudo img {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* BOTÓN ITAL */
 .btn-ital {
   background-color: var(--ital-primary);
   border-color: var(--ital-primary);
   color: var(--ital-white);
   font-weight: 600;
-  font-size: 0.95rem;
   border-radius: 8px;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
-
 .btn-ital:hover {
   background-color: var(--ital-secondary);
   border-color: var(--ital-secondary);
   color: var(--ital-white);
   transform: translateY(-1px);
 }
-
 .btn-ital:active { transform: translateY(0); }
+.btn-ital:disabled { background-color: var(--ital-muted); border-color: var(--ital-muted); }
 
-.btn-ital:disabled {
-  background-color: var(--ital-muted);
-  border-color: var(--ital-muted);
-}
-
-.login-disclaimer {
-  font-size: 0.72rem;
-  color: var(--ital-muted);
-  text-align: center;
-  margin-bottom: 0;
-  font-style: italic;
-}
-
+/* RESPONSIVO */
 @media (max-width: 480px) {
-  .login-card {
-    padding: 1.75rem 1.25rem;
-    border-radius: 12px;
-  }
+  .login-card { padding: 1.75rem 1.25rem; border-radius: 12px; }
   .login-title { font-size: 1.2rem; }
 }
