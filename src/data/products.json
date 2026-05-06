@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "nombre": "Uniforme Completo",
+    "nombre": "Agenda escolar",
     "precio": 85000,
-    "categoria": "Uniformes",
+    "categoria": "Utiles",
     "stock": 20,
-    "imagen": "https://via.placeholder.com/150/003366/ffffff?text=Uniforme",
+    "imagen": "/Agenda-escolar-ital.jpeg",
     "descripcion": "Uniforme oficial del ITAL, incluye camisa y pantalón."
   },
   {
     "id": 2,
-    "nombre": "Kit de Dibujo Técnico",
+    "nombre": "Kit institucional",
     "precio": 45000,
-    "categoria": "Útiles",
+    "categoria": "Utiles",
     "stock": 15,
-    "imagen": "https://via.placeholder.com/150/0055a5/ffffff?text=Dibujo",
+    "imagen": "/Kir-basico-institucional.jpeg",
     "descripcion": "Compás, escuadras, transportador y reglas."
   },
   {
@@ -23,53 +23,53 @@
     "precio": 60000,
     "categoria": "Tecnología",
     "stock": 10,
-    "imagen": "https://via.placeholder.com/150/f5a800/000000?text=Calc",
+    "imagen": "/Calculadora-ital.jpeg",
     "descripcion": "Calculadora científica aprobada para exámenes."
   },
   {
     "id": 4,
-    "nombre": "Cuaderno Universitario 100h",
+    "nombre": "Cuaderno de Hombre",
     "precio": 8500,
-    "categoria": "Útiles",
+    "categoria": "Utiles",
     "stock": 50,
-    "imagen": "https://via.placeholder.com/150/003366/ffffff?text=Cuaderno",
+    "imagen": "/Cuaderno-hombres-ital.png",
     "descripcion": "Cuaderno de 100 hojas cuadriculado."
   },
   {
     "id": 5,
-    "nombre": "USB 32GB",
+    "nombre": "Cuaderno de Mujer",
     "precio": 25000,
     "categoria": "Tecnología",
     "stock": 30,
-    "imagen": "https://via.placeholder.com/150/0055a5/ffffff?text=USB",
-    "descripcion": "Memoria USB 32GB para trabajos y proyectos."
+    "imagen": "/cuaderno-mujeres-ital.jpeg",
+    "descripcion": "Cuaderno de 100 hojas cuadriculado."
   },
   {
     "id": 6,
-    "nombre": "Libro Matemáticas Técnicas",
+    "nombre": "Libro Matemáticas ",
     "precio": 55000,
     "categoria": "Libros",
     "stock": 12,
-    "imagen": "https://via.placeholder.com/150/003366/ffffff?text=Libro",
+    "imagen": "/libro-matematicas-ital.jpeg",
     "descripcion": "Texto guía de matemáticas para grados 10 y 11."
   },
   {
     "id": 7,
-    "nombre": "Kit de Laboratorio",
+    "nombre": "libro español",
     "precio": 75000,
-    "categoria": "Laboratorio",
+    "categoria": "Utiles",
     "stock": 8,
-    "imagen": "https://via.placeholder.com/150/f5a800/000000?text=Lab",
+    "imagen": "/libro-español-ital.jpeg",
     "descripcion": "Bata, guantes y gafas de protección."
   },
   {
     "id": 8,
-    "nombre": "Agenda Escolar 2024",
+    "nombre": "Kit de Dibujo Técnico",
     "precio": 18000,
     "categoria": "Útiles",
     "stock": 25,
-    "imagen": "https://via.placeholder.com/150/0055a5/ffffff?text=Agenda",
-    "descripcion": "Agenda con calendario académico del ITAL."
+    "imagen": "/Kit-dibujo-tecnico.jpeg",
+    "descripcion": "kit de dibujo técnico con compás, escuadras y reglas."
   },
   {
     "id": 9,
@@ -77,16 +77,16 @@
     "precio": 12000,
     "categoria": "Útiles",
     "stock": 40,
-    "imagen": "https://via.placeholder.com/150/f5a800/000000?text=Colors",
+    "imagen": "/Set-resaltadores-ITAL.jpeg",
     "descripcion": "Set de 5 resaltadores de colores."
   },
   {
     "id": 10,
-    "nombre": "Mochila Técnica ITAL",
+    "nombre": "Chaqueta ITAL",
     "precio": 95000,
     "categoria": "Accesorios",
     "stock": 18,
-    "imagen": "https://via.placeholder.com/150/003366/ffffff?text=Mochila",
-    "descripcion": "Mochila resistente con logo del ITAL."
+    "imagen": "/Chaqueta-ital.jpeg",
+    "descripcion": "Chaqueta resistente con logo del ITAL."
   }
 ]
