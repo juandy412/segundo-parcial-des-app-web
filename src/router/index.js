@@ -1,4 +1,3 @@
-// Fuente: Vue Router 4 — https://router.vuejs.org/guide/
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '../views/LoginView.vue'
 import DashboardView from '../views/DashboardView.vue'

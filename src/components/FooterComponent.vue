@@ -1,4 +1,3 @@
-<!-- Footer reutilizable con derechos reservados -->
 <template>
   <footer class="app-footer">
     <span>
